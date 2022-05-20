@@ -1,0 +1,27 @@
+server:
+  port: 8087
+
+spring:
+  application:
+      name: ProductService
+  data:
+   mongodb:
+    database: DealsCoupenFinderApp
+    host: localhost
+    port: 27017
+data:
+  exception:
+     msg: Record Already Exists..!!
+     nameNotFound: Record name Not Found..!!
+     dataNotFound: Record name Not Found..!!
+eureka:
+   client:
+      service-url:
+       defaultZone: http://localhost:8761/eureka/
+logging:
+  file: 
+    path: /my-logs/app.log
+    name: log.txt
+jwt:
+  secret: secrectkey123       
+    
