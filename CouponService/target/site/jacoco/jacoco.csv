@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+CouponService,com.cg.model,Users,42,0,0,0,13,0,7,0,7,0
+CouponService,com.cg.model,Coupons,45,12,0,0,12,5,8,1,8,1
+CouponService,com.cg.service,UserService,31,0,2,0,7,0,3,0,2,0
+CouponService,com.cg.service,CouponsServiceImpl,59,0,6,0,14,0,8,0,5,0
+CouponService,com.cg.exception,NameNotFoundException,7,0,0,0,4,0,2,0,2,0
+CouponService,com.cg.exception,GlobalExceptionHandler,24,0,0,0,4,0,4,0,4,0
+CouponService,com.cg.exception,CouponAlreadyExistsException,7,0,0,0,4,0,2,0,2,0
+CouponService,com.cg.exception,CouponIdNotFound,7,0,0,0,4,0,2,0,2,0
+CouponService,com.cg,CouponsServiceApplication,8,0,0,0,3,0,2,0,2,0
+CouponService,com.cg.config,SecurityConfiguration,39,0,0,0,13,0,3,0,3,0
+CouponService,com.cg.controller,CouponsServiceController,25,0,0,0,4,0,4,0,4,0
+CouponService,com.cg.utility,JWTUtility,63,0,4,0,10,0,9,0,7,0
+CouponService,com.cg.filter,JwtFilter,66,0,10,0,19,0,7,0,2,0
