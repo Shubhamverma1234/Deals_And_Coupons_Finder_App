@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+CouponServiceUser,com.cg.model,Coupons,45,12,0,0,12,5,8,1,8,1
+CouponServiceUser,com.cg.service,CouponsServiceImpl,59,0,6,0,14,0,8,0,5,0
+CouponServiceUser,com.cg.exception,NameNotFoundException,7,0,0,0,4,0,2,0,2,0
+CouponServiceUser,com.cg.exception,CouponAlreadyExistsException,7,0,0,0,4,0,2,0,2,0
+CouponServiceUser,com.cg.exception,GlobalExceptionHandler,24,0,0,0,4,0,4,0,4,0
+CouponServiceUser,com.cg.exception,CouponIdNotFound,7,0,0,0,4,0,2,0,2,0
+CouponServiceUser,com.cg,CouponsServiceApplication,8,0,0,0,3,0,2,0,2,0
+CouponServiceUser,com.cg.controller,CouponsServiceController,25,0,0,0,4,0,4,0,4,0

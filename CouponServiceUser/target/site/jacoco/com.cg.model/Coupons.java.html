@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Coupons.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CouponServiceUser</a> &gt; <a href="index.source.html" class="el_package">com.cg.model</a> &gt; <span class="el_source">Coupons.java</span></div><h1>Coupons.java</h1><pre class="source lang-java linenums">package com.cg.model;
+
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+// Model class or Java Bean or POJO
+
+@Document(collection=&quot;coupontable&quot;)
+public class Coupons {
+	
+	//Attributes
+	@Id  // primary key
+	private int couponno;
+	private String cname;
+	private String cdetails;
+	
+	//default constructor
+	public Coupons() {
+<span class="nc" id="L21">		super();</span>
+		// TODO Auto-generated constructor stub
+<span class="nc" id="L23">	}</span>
+	//parameterized constructor
+	public Coupons(int couponno, String cname, String cdetails) {
+<span class="fc" id="L26">		super();</span>
+<span class="fc" id="L27">		this.couponno = couponno;</span>
+<span class="fc" id="L28">		this.cname = cname;</span>
+<span class="fc" id="L29">		this.cdetails = cdetails;</span>
+<span class="fc" id="L30">	}</span>
+	//setters and getters
+	public int getCouponno() {
+<span class="nc" id="L33">		return couponno;</span>
+	}
+
+	public void setCouponno(int couponno) {
+<span class="nc" id="L37">		this.couponno = couponno;</span>
+<span class="nc" id="L38">	}</span>
+
+	public String getCname() {
+<span class="nc" id="L41">		return cname;</span>
+	}
+
+	public void setCname(String cname) {
+<span class="nc" id="L45">		this.cname = cname;</span>
+<span class="nc" id="L46">	}</span>
+
+	public String getCdetails() {
+<span class="nc" id="L49">		return cdetails;</span>
+	}
+
+	public void setCdetails(String cdetails) {
+<span class="nc" id="L53">		this.cdetails = cdetails;</span>
+<span class="nc" id="L54">	}</span>
+	 //toString
+	@Override
+	public String toString() {
+<span class="nc" id="L58">		return &quot;Coupons [couponno=&quot; + couponno + &quot;, cname=&quot; + cname + &quot;, cdetails=&quot; + cdetails + &quot;]&quot;;</span>
+	}
+	
+	
+	
+	
+
+
+	
+
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
