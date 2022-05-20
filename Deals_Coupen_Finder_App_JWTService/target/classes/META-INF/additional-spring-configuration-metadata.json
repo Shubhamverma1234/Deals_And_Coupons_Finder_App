@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "spring.data.mongodb..host",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb..host'"
+  },
+  {
+    "name": "spring.data.mongodb..port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb..port'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "spring.data.mongodb.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.application.name'"
+  },
+  {
+    "name": "eureka.spring.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.spring.application.name'"
+  },
+  {
+    "name": "spring.application.data.mongodb.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.data.mongodb.database'"
+  },
+  {
+    "name": "spring.application.data.mongodb.host",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.data.mongodb.host'"
+  },
+  {
+    "name": "spring.application.data.mongodb.port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.data.mongodb.port'"
+  },
+  {
+    "name": "eureka.client.service-url.default-zone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.service-url.default-zone'"
+  },
+  {
+    "name": "data.exception.incmsg",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.incmsg'"
+  }
+]}

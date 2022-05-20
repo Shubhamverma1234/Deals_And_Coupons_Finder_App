@@ -1,0 +1,27 @@
+spring:
+     application:
+        name: Deals_Coupen_Finder_App_JWTService
+     data:
+        mongodb:
+             database: DealsCoupenFinderApp
+             host: localhost
+             port: 27017
+             
+jwt:
+  secret: secrectkey123
+  
+
+server:
+ port: 8081
+eureka:
+ client:
+  service-url:
+   defaultZone: http://localhost:8761/eureka/
+
+logging:
+  file: 
+    path: /my-logs/app.log
+    name: log.txt
+data:
+  exception:
+        incmsg: Invalid Credentials!!
