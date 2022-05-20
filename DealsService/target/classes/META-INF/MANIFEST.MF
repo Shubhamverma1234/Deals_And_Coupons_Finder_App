@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sverma23
+Build-Jdk: 17.0.2
+Implementation-Title: SpringRESTCURD
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.cg
+Implementation-URL: https://spring.io/projects/spring-boot/SpringRESTCUR
+ D
+Created-By: Maven Integration for Eclipse
+

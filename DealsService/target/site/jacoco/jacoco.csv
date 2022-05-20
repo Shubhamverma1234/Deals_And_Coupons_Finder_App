@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+SpringRESTCURD,com.cg.model,Users,42,0,0,0,13,0,7,0,7,0
+SpringRESTCURD,com.cg.model,Deals,45,12,0,0,12,5,8,1,8,1
+SpringRESTCURD,com.cg.service,DealsServiceImpl,62,0,6,0,16,0,8,0,5,0
+SpringRESTCURD,com.cg.service,UserService,31,0,2,0,7,0,3,0,2,0
+SpringRESTCURD,com.cg.exception,NameNotFoundException,7,0,0,0,4,0,2,0,2,0
+SpringRESTCURD,com.cg.exception,GlobalExceptionHandler,24,0,0,0,4,0,4,0,4,0
+SpringRESTCURD,com.cg.exception,DealsIdNotFound,7,0,0,0,4,0,2,0,2,0
+SpringRESTCURD,com.cg.exception,DealsAlreadyExistsException,7,0,0,0,4,0,2,0,2,0
+SpringRESTCURD,com.cg,DealsServiceApplication,8,0,0,0,3,0,2,0,2,0
+SpringRESTCURD,com.cg.config,SecurityConfiguration,39,0,0,0,13,0,3,0,3,0
+SpringRESTCURD,com.cg.controller,DealsServiceController,39,0,0,0,8,0,5,0,5,0
+SpringRESTCURD,com.cg.utility,JWTUtility,63,0,4,0,10,0,9,0,7,0
+SpringRESTCURD,com.cg.filter,JwtFilter,66,0,10,0,19,0,7,0,2,0

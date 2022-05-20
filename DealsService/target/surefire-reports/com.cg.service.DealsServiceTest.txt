@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.service.DealsServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+com.cg.service.DealsServiceTest.testGetAllAgencys()  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.cg.repository.DealsRepository.save(Object)" because "this.dr" is null
+	at com.cg.service.DealsServiceTest.testGetAllAgencys(DealsServiceTest.java:55)
+

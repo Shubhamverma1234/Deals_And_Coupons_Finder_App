@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Deals.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SpringRESTCURD</a> &gt; <a href="index.source.html" class="el_package">com.cg.model</a> &gt; <span class="el_source">Deals.java</span></div><h1>Deals.java</h1><pre class="source lang-java linenums">package com.cg.model;
+
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+// Model class or Java Bean or POJO
+
+@Document(collection=&quot;dealstable&quot;)
+public class Deals {
+	
+	//Attributes
+	@Id  // primary key
+	private int dealno;
+	private String dname;
+	private String ddetails;
+	
+	//default constructor
+	public Deals() {
+<span class="nc" id="L21">		super();</span>
+		// TODO Auto-generated constructor stub
+<span class="nc" id="L23">	}</span>
+	//parameterized constructor
+	public Deals(int dealno, String dname, String ddetails) {
+<span class="fc" id="L26">		super();</span>
+<span class="fc" id="L27">		this.dealno = dealno;</span>
+<span class="fc" id="L28">		this.dname = dname;</span>
+<span class="fc" id="L29">		this.ddetails = ddetails;</span>
+<span class="fc" id="L30">	}</span>
+	//setters and getters
+	public int getDealno() {
+<span class="nc" id="L33">		return dealno;</span>
+	}
+	public void setDealno(int dealno) {
+<span class="nc" id="L36">		this.dealno = dealno;</span>
+<span class="nc" id="L37">	}</span>
+	public String getDname() {
+<span class="nc" id="L39">		return dname;</span>
+	}
+	public void setDname(String dname) {
+<span class="nc" id="L42">		this.dname = dname;</span>
+<span class="nc" id="L43">	}</span>
+	public String getDdetails() {
+<span class="nc" id="L45">		return ddetails;</span>
+	}
+	public void setDdetails(String ddetails) {
+<span class="nc" id="L48">		this.ddetails = ddetails;</span>
+<span class="nc" id="L49">	}</span>
+	 //toString
+	@Override
+	public String toString() {
+<span class="nc" id="L53">		return &quot;Deals [dealno=&quot; + dealno + &quot;, dname=&quot; + dname + &quot;, ddetails=&quot; + ddetails + &quot;]&quot;;</span>
+	}
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
