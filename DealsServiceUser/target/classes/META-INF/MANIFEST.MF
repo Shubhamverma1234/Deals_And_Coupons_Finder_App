@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sverma23
+Build-Jdk: 17.0.2
+Implementation-Title: DealsServiceUser
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.cg
+Implementation-URL: https://spring.io/projects/spring-boot/DealsServiceU
+ ser
+Created-By: Maven Integration for Eclipse
+

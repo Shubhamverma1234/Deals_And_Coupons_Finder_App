@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "data.exception.msg",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.msg'"
+  },
+  {
+    "name": "data.exception.nameNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.nameNotFound'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "data.exception.nameNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.nameNotFound'"
+  },
+  {
+    "name": "data.exception.nameNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.nameNotFound'"
+  }
+]}
