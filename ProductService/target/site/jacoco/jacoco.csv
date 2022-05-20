@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+ProductService,com.cg.model,Product,57,0,0,0,17,0,9,0,9,0
+ProductService,com.cg.service,ProductServiceImpl,59,0,6,0,14,0,8,0,5,0
+ProductService,com.cg.exception,NameNotFoundException,7,0,0,0,4,0,2,0,2,0
+ProductService,com.cg.exception,ProductAlreadyExistsException,7,0,0,0,4,0,2,0,2,0
+ProductService,com.cg.exception,GlobalExceptionHandler,24,0,0,0,4,0,4,0,4,0
+ProductService,com.cg.exception,ProductIdNotFound,7,0,0,0,4,0,2,0,2,0
+ProductService,com.cg,ProductServiceApplication,8,0,0,0,3,0,2,0,2,0
+ProductService,com.cg.controller,ProductServiceController,36,0,0,0,6,0,5,0,5,0

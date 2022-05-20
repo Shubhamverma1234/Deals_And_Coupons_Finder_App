@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sverma23
+Build-Jdk: 17.0.2
+Implementation-Title: ProductService
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.cg
+Implementation-URL: https://spring.io/projects/spring-boot/ProductServic
+ e
+Created-By: Maven Integration for Eclipse
+
