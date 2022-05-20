@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.service.CouponServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
+com.cg.service.CouponServiceTest.testGetAllAgencys()  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.cg.repository.CouponsRepository.save(Object)" because "this.dr" is null
+	at com.cg.service.CouponServiceTest.testGetAllAgencys(CouponServiceTest.java:57)
+
