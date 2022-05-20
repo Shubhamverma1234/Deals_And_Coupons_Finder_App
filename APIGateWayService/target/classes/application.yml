@@ -1,0 +1,33 @@
+server: 
+  port: 8086
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8761/eureka/
+spring:
+ application:
+  name: APIGateWayService
+ cloud:
+  gateway:
+   routes:
+    - id: Deals_Coupen_Finder_App_JWTService
+      uri: http://localhost:8081/
+      predicates:
+      - Path=/api/jwt/**
+    - id: productModule
+      uri: http://localhost:8087/
+      predicates:
+      - Path=/api/v1/**
+    - id: Deals Service
+      uri: http://localhost:8089/
+      predicates:
+       - Path=/api/d1/**  
+    - id: CouponService
+      uri: http://localhost:8085/
+      predicates:
+       - Path=/api/c1/** 
+        
+logging:
+  file: 
+    path: /my-logs/app.log
+    name: log.txt       
